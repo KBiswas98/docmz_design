@@ -100,15 +100,15 @@
     - gap_big (boolean)
         - introduces **1 letterSpacing** in text
     - lite (boolean)
-        - makes fontWeight 300
+        - makes fontWeight **300**
     - normal (boolean)
-        - makes fontWeight 500
+        - makes fontWeight **500**
     - semi_bold (boolean)
-        - makes fontWeight 700
+        - makes fontWeight **700**
     - bold (boolean)
-        - makes fontWeight 800
+        - makes fontWeight **800**
     - extera_bold (boolean)
-        - makes fontWeight 900
+        - makes fontWeight **900**
     - children (Node)
         - children(s) to render along with **text** prop's value
     - style (Object)
