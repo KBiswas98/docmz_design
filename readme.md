@@ -79,3 +79,37 @@
         - value to tell the state of toggle switch
     - style (Object)
         - Custom style for the component
+
+---
+
+## Atoms
+
+1. **DmzText**
+    - text (String)
+        - Text to show
+    - type (Number)
+        - different sizes for text
+            - Available options **[0,1,2,3,4,5,6]**
+                - Equivalent size **[8,10,12,15,20,30,40]**
+    - center (Boolean)
+        - Whether to align text horizontally center or not
+    - gap_small (Boolean)
+        - introduces **0.5 letterSpacing** in text
+    - gap_medium (boolean)
+        - introduces **0.75 letterSpacing** in text
+    - gap_big (boolean)
+        - introduces **1 letterSpacing** in text
+    - lite (boolean)
+        - makes fontWeight 300
+    - normal (boolean)
+        - makes fontWeight 500
+    - semi_bold (boolean)
+        - makes fontWeight 700
+    - bold (boolean)
+        - makes fontWeight 800
+    - extera_bold (boolean)
+        - makes fontWeight 900
+    - children (Node)
+        - children(s) to render along with **text** prop's value
+    - style (Object)
+        - Custom styles for the component's text
